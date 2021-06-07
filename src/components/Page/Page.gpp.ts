@@ -14,7 +14,7 @@ export class Page extends Component {
       this.setState({
         flag: true,
         latin: 'Per aspera ad astra!',
-        wish: 'Have a good hack with gpp-templator!',
+        wish: 'Have a good hacking with gpp-templator!',
         button: 'Good luck!'
       })
     }
