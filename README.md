@@ -1,6 +1,6 @@
 # gpp-templator-quick-start
 
-## Start
+## Install and start
 
 > node 14.x
 
