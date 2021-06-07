@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2020.string",
+      "dom"
+    ],
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": [
+      "typings/**/*.d.ts",
+      "node_modules/@types"
+    ]
+  },       
+  "include": [
+    "src/**/*.ts",
+    "typings/**/*.d.ts",
+    "./node_modules/@types"
+  ]
+}

@@ -1,0 +1,12 @@
+.button {
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: var(--color-red);
+  color: var(--color-red-dark);
+}
