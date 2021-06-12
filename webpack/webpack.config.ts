@@ -1,6 +1,5 @@
 import { Configuration, DefinePlugin } from 'webpack'
 import path from 'path'
-import TsconfigPathsPlugin from 'tsconfig-paths-webpack-plugin'
 import { CleanWebpackPlugin } from 'clean-webpack-plugin'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import { DIST_DIR, SRC_DIR, IS_DEV } from './env'
@@ -16,13 +15,7 @@ export const config: Configuration = {
     filename: '[name].[contenthash].js'
   },
   resolve: {
-    extensions: ['.ts', '.wasm', '.tsx', '.mjs', '.cjs', '.js', '.json'],
-    plugins: [
-      new TsconfigPathsPlugin(
-        {
-          configFile: 'tsconfig.json'
-        }
-      )]
+    extensions: ['.ts', '.wasm', '.tsx', '.mjs', '.cjs', '.js', '.json']
   },
   devServer: {
     contentBase: 'dist',
