@@ -12,3 +12,4 @@ $ npm run dev
 $ npm run prod
 $ npm run start
 ```
+* [PyotrGrigorchenko](https://github.com/PyotrGrogorchenko) - Developer
