@@ -8,6 +8,10 @@
 
 You can quickly start using [gpp-templator](https://www.npmjs.com/package/gpp-templator) with this repo.
 
+## Project phase
+
+The project is completed, only bugs fix.
+
 ## Install
 
 > node 14.x
