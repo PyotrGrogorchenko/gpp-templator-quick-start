@@ -6,7 +6,7 @@
 
 ## Description
 
-Individual training project from Yandex.praktikum: middle frontend developer.
+You can quickly start using [gpp-templator](https://www.npmjs.com/package/gpp-templator) with this repo.
 
 ## Install
 
